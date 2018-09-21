@@ -1,0 +1,79 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "lzJAk9X7mYcPZXZDjMual38yCtE=",
+			"path": "github.com/google/gopacket",
+			"revision": "a2aa39de42126f2f776871ddb0a7a694e49d2dd1",
+			"revisionTime": "2018-09-13T15:26:27Z"
+		},
+		{
+			"checksumSHA1": "yS8YjDiqnYYHWO09erwKIm4fxXU=",
+			"path": "github.com/google/gopacket/layers",
+			"revision": "a2aa39de42126f2f776871ddb0a7a694e49d2dd1",
+			"revisionTime": "2018-09-13T15:26:27Z"
+		},
+		{
+			"checksumSHA1": "Oy8XQgF66Y9ch5CcuaGpWO+rSPU=",
+			"path": "github.com/google/gopacket/pcap",
+			"revision": "a2aa39de42126f2f776871ddb0a7a694e49d2dd1",
+			"revisionTime": "2018-09-13T15:26:27Z"
+		},
+		{
+			"checksumSHA1": "bbXMesg5eqEjLs7Riad0kHzS/0Q=",
+			"path": "github.com/mailru/easyjson",
+			"revision": "60711f1a8329503b04e1c88535f419d0bb440bff",
+			"revisionTime": "2018-08-23T13:54:43Z"
+		},
+		{
+			"checksumSHA1": "euMY7SmXXGeDit90eC8FPzDT1SU=",
+			"path": "github.com/mailru/easyjson/buffer",
+			"revision": "60711f1a8329503b04e1c88535f419d0bb440bff",
+			"revisionTime": "2018-08-23T13:54:43Z"
+		},
+		{
+			"checksumSHA1": "gXc7hxqTywruTPu2glQy1CmWzuY=",
+			"path": "github.com/mailru/easyjson/jlexer",
+			"revision": "60711f1a8329503b04e1c88535f419d0bb440bff",
+			"revisionTime": "2018-08-23T13:54:43Z"
+		},
+		{
+			"checksumSHA1": "8uahZmmPJqtj80oEIRELmEF8DSE=",
+			"path": "github.com/mailru/easyjson/jwriter",
+			"revision": "60711f1a8329503b04e1c88535f419d0bb440bff",
+			"revisionTime": "2018-08-23T13:54:43Z"
+		},
+		{
+			"checksumSHA1": "VOdoPrcfRXDK5BdBG2NNJCYjcO8=",
+			"path": "github.com/olivere/elastic",
+			"revision": "e6cae211ee802eab70248a68fe2cb03b616744c9",
+			"revisionTime": "2018-08-31T17:57:14Z"
+		},
+		{
+			"checksumSHA1": "BXdfHuoScfrqNwlT7G9N0Y7g9pY=",
+			"path": "github.com/olivere/elastic/config",
+			"revision": "e6cae211ee802eab70248a68fe2cb03b616744c9",
+			"revisionTime": "2018-08-31T17:57:14Z"
+		},
+		{
+			"checksumSHA1": "u9MzFGzGHPLRSI+Uuihe2xCCbHk=",
+			"path": "github.com/olivere/elastic/uritemplates",
+			"revision": "e6cae211ee802eab70248a68fe2cb03b616744c9",
+			"revisionTime": "2018-08-31T17:57:14Z"
+		},
+		{
+			"checksumSHA1": "7UwX0gHWVH7OvdvLkQdAncvm9tk=",
+			"path": "github.com/pkg/errors",
+			"revision": "c059e472caf75dbe73903f6521a20abac245b17f",
+			"revisionTime": "2018-09-11T06:21:13Z"
+		},
+		{
+			"checksumSHA1": "d3jYBfW+YmOxsa5o8m6XyywVbIo=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		}
+	],
+	"rootPath": "github.com/joeke80215/dumpcat"
+}
