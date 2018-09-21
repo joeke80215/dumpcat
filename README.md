@@ -19,6 +19,10 @@ dump network packet to database
     ```
 - windows: install winpcap (https://www.winpcap.org/)
 
+## install
+```
+go get github.com/joeke80215/dumpcat
+```
 ## build
 ```
 go build -v
