@@ -25,6 +25,7 @@ go get github.com/joeke80215/dumpcat
 ```
 ## build
 ```
+cd $GOPATH/src/joeke80215/dumpcat
 go build -v
 ```
 
