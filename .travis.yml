@@ -5,6 +5,9 @@ go:
   - "1.x"
   - "1.8"
   - "1.10.x"
+
+install:
+- sudo apt-get install libpcap-dev
   
 script:
   - go vet -v ./...
