@@ -42,7 +42,7 @@ func (tcp *tcpLayer) CheckPackageLayer() bool {
 
 // Tran translate tcp gopacket.Packet to pkg.Packet
 //
-// refernece: https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+// reference: https://en.wikipedia.org/wiki/Transmission_Control_Protocol
 // ---PackTCP tcp package information---
 // *Proto(string): portocal
 // *IPv4(*PackIPv4): ipv4 package info

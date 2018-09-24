@@ -3,7 +3,7 @@ package filter
 import "sync"
 
 // Filter filter package
-type Filter interface{
+type Filter interface {
 	GetBPF() string
 }
 
