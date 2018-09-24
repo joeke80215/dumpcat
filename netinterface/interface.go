@@ -7,7 +7,7 @@ type NetInterface interface {
 	// GetName get network interface name
 	GetName() string
 
-	// GetSnapshotLen get network snapshot lenght
+	// GetSnapshotLen get network snapshot length
 	GetSnapshotLen() int32
 
 	// GetPromiscuousMode promiscuous mode
@@ -24,7 +24,7 @@ type netInterface struct {
 // NewNetInterface new network interface
 // parameter:
 // name: device name
-// sl: snapshot lenght
+// sl: snapshot length
 // pm: promiscuous mode
 func NewNetInterface(name string,sl int, pm bool) NetInterface {
 	return &netInterface{
@@ -39,7 +39,7 @@ func (n *netInterface) GetName() string {
 	return n.name
 }
 
-// GetSnapshotLen get network snapshot lenght
+// GetSnapshotLen get network snapshot length
 func (n *netInterface) GetSnapshotLen() int32 {
 	return int32(n.sl)
 }

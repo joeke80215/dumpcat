@@ -45,7 +45,7 @@ func (ipv4Layer *ipv4Layer) Tran(p pkg.Packet) pkg.Packet {
 	p.Set("Src", ipv4.SrcIP.String())
 	p.Set("Dst", ipv4.DstIP.String())
 	p.Set("Proto", "ipv4")
-	p.Set("Lenght", ipv4.Length)
+	p.Set("Length", ipv4.Length)
 
 	return p
 }

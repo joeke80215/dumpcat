@@ -31,7 +31,7 @@ func NewTranslate(dumpName string, proto string, packet gopacket.Packet) Transla
 	case "tcp":
 		t.layer = networklayer.NewtcpLayer(packet)
 	default:
-		log.Fatal("translate protocal error proto=", proto)
+		log.Fatal("translate protocol error proto=", proto)
 	}
 
 	return t

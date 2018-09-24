@@ -19,7 +19,7 @@ func init() {
 // *Proto(string): portocal
 // *Src(string): source <ip:port>
 // *Dst(string): destination  <ip:port>
-// *Lenght(uint16): package lenght
+// *Length(uint16): package length
 //
 // refernece: https://en.wikipedia.org/wiki/Transmission_Control_Protocol
 // ---PackTCP tcp package information---
